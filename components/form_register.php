@@ -2,9 +2,9 @@
         <div class="container">
             <!--Title-->
             <div class="section-title has-text-centered">
-                <h2 class="title is-spaced">Any Questions?</h2>
+                <h2 class="title is-spaced">Registrar Ahora</h2>
                 <h3 class="subtitle">
-                    Shoot us a little message if you have any questions.
+                    Llena el siguiente formulario para ser parte de esta comunidad.
                 </h3>
             </div>
 
@@ -19,7 +19,7 @@
                                     <input class="material-input" name="usr_nombre" type="text" required />
                                     <span class="material-highlight"></span>
                                     <span class="bar"></span>
-                                    <label>Nombre</label>
+                                    <label>Nombre Completo</label>
                                 </div>
                                 <div class="control-material is-primary">
                                     <input class="material-input" name="usr_email" type="text" required />
@@ -39,7 +39,17 @@
                                         <label class="checkbox-wrap is-small">
                                             <input required id="check1" name="opt_data" type="checkbox" class="d-checkbox">
                                             <span></span>
-                                            Data
+                                            *He leído y otorgo mi consentimiento a Green Pal para el tratamiento de mis datos personales conforme a la Política de Privacidad.
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <div class="control">
+                                        <label class="checkbox-wrap is-small">
+                                            <input required id="check1" name="opt_data" type="checkbox" class="d-checkbox">
+                                            <span></span>
+                                            *He leído y acepto los términos y condiciones de Green Pal así como los términos y condiciones de las promociones.
                                         </label>
                                     </div>
                                 </div>
@@ -49,14 +59,15 @@
                                         <label class="checkbox-wrap is-small">
                                             <input id="check1" name="opt_publicidad" type="checkbox" class="d-checkbox">
                                             <span></span>
-                                            Publicidad
+                                            Deseo recibir correos electrónicos sobre promociones en productos 
                                         </label>
                                     </div>
                                 </div>
+                                
         
                                 <div class="button-wrap">
                                     <button name="agregar_usr" type="submit"  class="button cta-button primary-btn is-fullwidth is-rounded">
-                                        Registro
+                                        Registrar
                                     </button>
                                 </div>
                             </form>

@@ -2,9 +2,9 @@
         <div class="container">
             <!--Title-->
             <div class="section-title has-text-centered">
-                <h2 class="title is-spaced">Any Questions?</h2>
+                <h2 class="title is-spaced">¿Que quieres reciclar hoy?</h2>
                 <h3 class="subtitle">
-                    Shoot us a little message if you have any questions.
+                    Recuerda que unicamente recogemos un kilo por material sin mezclar. 
                 </h3>
             </div>
 
@@ -49,7 +49,7 @@
                                 </div>
                                 <div class="button-wrap">
                                     <button name="agregar_record" type="submit" class="button cta-button primary-btn is-fullwidth is-rounded">
-                                        Send Message
+                                        Reciclar
                                     </button>
                                 </div>
                             </form>

@@ -1,6 +1,6 @@
 <?php
      $server = 'localhost';
-     $database = 'recoleccion_basura';
+     $database = 'Green_Pal_Test';
      $username = 'root';
      $password = 'root';
 

@@ -2,11 +2,10 @@
         <div class="container">
             <!-- Title -->
             <div class="centered-title">
-                <h2>Our Process</h2>
+                <h2>¿Cómo Participar?</h2>
                 <div class="title-divider"></div>
                 <div class="subheading">
-                    Before creation, there's thinking. Our process is sharp and let us craft
-                    the best quality.
+                    Para poder participar sigue estos tres sencillos pasos y comienza a darle un verdadero valor a tu basura.
                 </div>
             </div>
             <!-- /Title -->
@@ -26,11 +25,9 @@
                             <div class="process-info">
                                 <div class="step-number">1</div>
                                 <div class="details">
-                                    <div class="motto">Think</div>
+                                    <div class="motto">Regístrate</div>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, eam ex probo tation tractatos. Ut
-                                        vel hinc solet tincidunt, nec et iisque placerat pertinax. Ei
-                                        minim probatus mea.
+                                        Llena el formulario de registro con tu número de departamento en Stampa Santa Fe, así podremos ir a recoger la basura a tu domicilio 
                                     </p>
                                 </div>
                             </div>
@@ -48,11 +45,9 @@
                             <div class="process-info">
                                 <div class="step-number">2</div>
                                 <div class="details">
-                                    <div class="motto">Iterate</div>
+                                    <div class="motto">Recicla</div>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, eam ex probo tation tractatos. Ut
-                                        vel hinc solet tincidunt, nec et iisque placerat pertinax. Ei
-                                        minim probatus mea.
+                                        Junta un kilo de pet, aluminio, papel o carton y programa el día en el que quieras que pasemos por ella. Asegurate de separar bien tu basura para que no esten combinados. 
                                     </p>
                                 </div>
                             </div>
@@ -70,11 +65,9 @@
                             <div class="process-info">
                                 <div class="step-number">3</div>
                                 <div class="details">
-                                    <div class="motto">Create</div>
+                                    <div class="motto">Gana</div>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, eam ex probo tation tractatos. Ut
-                                        vel hinc solet tincidunt, nec et iisque placerat pertinax. Ei
-                                        minim probatus mea.
+                                        El primero en llegar a 10 kg de cualquiera de estos materiales en el mes, se llevará el premio mayor. 
                                     </p>
                                 </div>
                             </div>
