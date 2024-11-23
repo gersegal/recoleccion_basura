@@ -7,18 +7,22 @@ if(isset($_POST['agregar_usr'])){
     $usr_nombre = $_POST['usr_nombre'];
     $usr_depto = $_POST['usr_depto'];
     $usr_email = $_POST['usr_email'];
+    $usr_user = strtok($usr_email, '@');
     $opt_data = $_POST['opt_data'];
+    $opt_terms = $_POST['opt_terms'];
     $opt_publicidad = $_POST['opt_publicidad'];
   
     $userInfo = [
       'usr_nombre' => $usr_nombre,
       'usr_depto' => $usr_depto,
       'usr_email' => $usr_email,
+      'usr_user' => $usr_user,
       'opt_data' => $opt_data,
+      'opt_terms' => $opt_terms,
       'opt_publicidad' => $opt_publicidad
     ];
 
-    $userQuery = "INSERT INTO usuarios (usr_nombre, usr_depto, usr_email, opt_data, opt_publicidad) VALUES(:usr_nombre, :usr_depto, :usr_email, :opt_data, :opt_publicidad)";
+    $userQuery = "INSERT INTO usuarios (usr_nombre, usr_depto, usr_email, usr_user, opt_data, opt_terms, opt_publicidad) VALUES(:usr_nombre, :usr_depto, :usr_email, :usr_user, :opt_data, :opt_terms, :opt_publicidad)";
     $load_user = $pdo->prepare($userQuery);
     $load_user->execute($userInfo);
 

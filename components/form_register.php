@@ -47,7 +47,7 @@
                                 <div class="field">
                                     <div class="control">
                                         <label class="checkbox-wrap is-small">
-                                            <input required id="check1" name="opt_data" type="checkbox" class="d-checkbox">
+                                            <input required id="check2" name="opt_terms" type="checkbox" class="d-checkbox">
                                             <span></span>
                                             *He leído y acepto los términos y condiciones de Green Pal así como los términos y condiciones de las promociones.
                                         </label>
@@ -57,7 +57,7 @@
                                 <div class="field">
                                     <div class="control">
                                         <label class="checkbox-wrap is-small">
-                                            <input id="check1" name="opt_publicidad" type="checkbox" class="d-checkbox">
+                                            <input id="check3" name="opt_publicidad" type="checkbox" class="d-checkbox">
                                             <span></span>
                                             Deseo recibir correos electrónicos sobre promociones en productos 
                                         </label>

@@ -169,7 +169,7 @@ if(isset($_POST['agregar_record'])){
         <div class="column"><!-- Form -->
         <?php include "./components/form_solicitud.php" ?></div>
         <div class="column"><!-- Process section -->
-        <?php include "./components/process.php" ?></div>
+        <?php include "./components/horizontal_bar_chart.php" ?></div>
     </div>
 
 
