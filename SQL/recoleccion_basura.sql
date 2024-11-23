@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Nov 11, 2024 at 03:33 PM
+-- Generation Time: Nov 23, 2024 at 04:57 AM
 -- Server version: 5.7.39
 -- PHP Version: 7.4.33
 
@@ -18,8 +18,53 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `recoleccion_basura`
+-- Database: `Green_Pal_Test`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admins`
+--
+
+CREATE TABLE `admins` (
+  `id` int(10) NOT NULL,
+  `admin_name` varchar(255) NOT NULL,
+  `admin_email` varchar(255) NOT NULL,
+  `admin_pss` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `admins`
+--
+
+INSERT INTO `admins` (`id`, `admin_name`, `admin_email`, `admin_pss`) VALUES
+(3, 'bobjohnson', 'prueba@email.com', '$2y$10$qHuDznEbxJPm7bokxS.BjuUr95RNtVXRerqOB041IPWSovGbxy912');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `solicitudes_recoleccion`
+--
+
+CREATE TABLE `solicitudes_recoleccion` (
+  `id` int(10) NOT NULL,
+  `usr_email` varchar(255) NOT NULL,
+  `no_depto` varchar(255) NOT NULL,
+  `basura_reciclar` varchar(255) NOT NULL,
+  `kilos` varchar(255) NOT NULL,
+  `fecha_recoleccion` varchar(255) NOT NULL,
+  `fecha_registro` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `estatus` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `solicitudes_recoleccion`
+--
+
+INSERT INTO `solicitudes_recoleccion` (`id`, `usr_email`, `no_depto`, `basura_reciclar`, `kilos`, `fecha_recoleccion`, `fecha_registro`, `estatus`) VALUES
+(9, 'email@email.com', '12', 'PET', '2', '2/2/2025', '2024-11-09 17:23:01', 'En proceso'),
+(10, 'email@email.com', '12', 'Carton', '2', '2/2/2025', '2024-11-11 09:12:17', 'En proceso');
 
 -- --------------------------------------------------------
 
@@ -51,6 +96,18 @@ INSERT INTO `usuarios` (`id`, `usr_nombre`, `usr_email`, `usr_depto`, `opt_data`
 --
 
 --
+-- Indexes for table `admins`
+--
+ALTER TABLE `admins`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `solicitudes_recoleccion`
+--
+ALTER TABLE `solicitudes_recoleccion`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `usuarios`
 --
 ALTER TABLE `usuarios`
@@ -59,6 +116,18 @@ ALTER TABLE `usuarios`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `admins`
+--
+ALTER TABLE `admins`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `solicitudes_recoleccion`
+--
+ALTER TABLE `solicitudes_recoleccion`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `usuarios`
