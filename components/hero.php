@@ -37,7 +37,7 @@
                     <div class="navbar-end">
                         <!-- Signup button -->
                         <div class="navbar-item">
-                            <a id="#signup-btn" href="recoleccion.php" class="button button-signup btn-outlined is-bold btn-align light-btn rounded raised">
+                            <a style="color: white !important" id="#signup-btn" href="recoleccion.php" class="button button-signup btn-outlined is-bold btn-align light-btn rounded raised">
                                 Solicitud de recolección
                             </a>
                         </div>
