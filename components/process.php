@@ -1,3 +1,10 @@
+<style>
+    .whatsapp {
+        width: 7%;
+        position: fixed; top:80%; right: 5%; 
+    }
+</style>
+
 <div class="section section-feature-grey is-medium huge-pb">
         <div class="container">
             <!-- Title -->
@@ -74,6 +81,13 @@
                         </div>
                     </div>
                 </div>
+            
+                <div class="whatsapp">
+                    <a href="https://wa.me/5537331398?text=Tengo dudas sobre la dinámica" target="_blank">
+                        <img src="img/whatsapp_icon.png" alt="" id="whatsapp">
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>

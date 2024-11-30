@@ -1,6 +1,6 @@
 <?php
      $server = 'localhost';
-     $database = 'Green_Pal_Test';
+     $database = 'Green_Pal_Test2';
      $username = 'root';
      $password = 'root';
 

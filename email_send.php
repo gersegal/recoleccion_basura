@@ -27,7 +27,7 @@ $template = str_replace('$fecha_recoleccion', $fecha_recoleccion, $template);
             $mail->isHTML(true);
             $mail->setFrom("fpldojosender@gmail.com");
             //En la de abajo luego cambiar a email del cliente
-            $mail->addAddress("gerardosgv@gmail.com", "Notificación Email");
+            $mail->addAddress("zlotnik.leon91@gmail.com@gmail.com", "Notificación Email");
             $mail->CharSet = 'UTF-8';
             $mail->Subject = "Prueba email";
             $mail->Body = $template;

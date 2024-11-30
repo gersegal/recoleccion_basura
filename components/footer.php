@@ -4,53 +4,53 @@
                 <div class="column">
                     <div class="footer-column">
                         <div class="footer-header">
-                            <h3>Product</h3>
+                            <h3><a href="">Terminos y Condiciones</a></h3>
                         </div>
-                        <ul class="link-list">
-                            <li><a href="#">Discover features</a></li>
-                            <li><a href="#">CMS integration</a></li>
+                       <!-- <ul class="link-list">
+                            <li><a href="#">Concurso</a></li>
+                            <li><a href="#"></a></li>
                             <li><a href="#">Customers</a></li>
                             <li><a href="#">Weekly sessions</a></li>
                             <li><a href="#">Free trials and demo</a></li>
                             <li><a href="#">What's next ?</a></li>
-                        </ul>
+                        </ul>-->
                     </div>
                 </div>
                 <div class="column">
                     <div class="footer-column">
                         <div class="footer-header">
-                            <h3>Company</h3>
+                            <h3><a href="">Aviso de Privacidad</a></h3>
                         </div>
-                        <ul class="link-list">
+                       <!--  <ul class="link-list">
                             <li><a href="#">About us</a></li>
                             <li><a href="#">About security</a></li>
                             <li><a href="#">User guide</a></li>
                             <li><a href="#">Terms of service</a></li>
                             <li><a href="#">Terms of website use</a></li>
                             <li><a href="#">Privacy policy</a></li>
-                        </ul>
+                        </ul>-->
                     </div>
                 </div>
                 <div class="column">
                     <div class="footer-column">
                         <div class="footer-header">
-                            <h3>Learning</h3>
+                            <h3><a href="">Misión</a></h3>
                         </div>
-                        <ul class="link-list">
+                        <!-- <ul class="link-list">
                             <li><a href="#">Resources</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">API documentation</a></li>
                             <li><a href="#">Admin guide</a></li>
-                        </ul>
+                        </ul>-->
                     </div>
                 </div>
                 <div class="column">
                     <div class="footer-column">
                         <div class="footer-logo">
-                            <img class="switcher-logo-w" src="assets/img/logos/logo/bulkit-core-w.svg" alt="" />
+                            <img class="switcher-logo-w" src="img/Green_Pal_logo_3.png" alt=""/>
                         </div>
-                        <div class="footer-header">
+                        <!--<div class="footer-header">
                             <nav class="level is-mobile">
                                 <div class="level-left level-social">
                                     <a href="#" class="level-item">
@@ -75,7 +75,7 @@
                             <span class="moto light-text"
               >Designed and coded with <i class="fa fa-heart color-red"></i> by
               CSS Ninja.</span>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>

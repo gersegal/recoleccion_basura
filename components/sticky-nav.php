@@ -4,8 +4,8 @@
                 <!-- Brand -->
                 <div class="navbar-brand">
                     <a class="navbar-item" href="/">
-                        <img class="light-logo" src="assets/img/logos/logo/bulkit-white.svg" alt="" />
-                        <img class="dark-logo switcher-logo" src="assets/img/logos/logo/bulkit-core.svg" alt="" />
+                        <img class="light-logo" src="img/Green_Pal_logo_3.png" alt="" />
+                        <img class="dark-logo switcher-logo" src="img/Green_Pal_logo_3.png" alt="" />
                     </a>
 
                     <!-- Sidebar Trigger -->

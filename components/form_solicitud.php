@@ -1,3 +1,10 @@
+<style>
+    .whatsapp {
+        width: 7%;
+        position: fixed; top:80%; right: 5%; 
+    }
+</style>
+
 <div class="section is-medium">
         <div class="container">
             <!--Title-->
@@ -30,9 +37,10 @@
                                 <div class="control-material is-primary select">
                                     <select name="basura_reciclar" id="">
                                         <option value="0">Basura a reciclar</option>
-                                        <option value="Aluminio">Aluminio</option>
-                                        <option value="PET">PET</option>
+                                        <option value="Aluminio">Pet</option>
+                                        <option value="PET">Aluminio</option>
                                         <option value="Carton">Cartón</option>
+                                        <option value="Carton">Papel</option>
                                     </select>
                                 </div>
                                 <div class="control-material is-primary">
@@ -42,10 +50,12 @@
                                     <label>Kilos</label>
                                 </div>
                                 <div class="control-material is-primary">
-                                    <input name="fecha_recoleccion" class="material-input" type="text" required />
+                                    </br>
+                                    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2024-12-01" max="2024-12-31" required />
+                                    <!--<input name="fecha_recoleccion" class="material-input" type="text" required />-->
                                     <span class="material-highlight"></span>
                                     <span class="bar"></span>
-                                    <label>Fecha de recoleccion</label>
+                                    <label for="start">Fecha de recoleccion</label>
                                 </div>
                                 <div class="button-wrap">
                                     <button name="agregar_record" type="submit" class="button cta-button primary-btn is-fullwidth is-rounded">
@@ -55,6 +65,11 @@
                             </form>
                         </div>
                     </div>
+                    <div class="whatsapp">
+                    <a href="https://wa.me/5537331398?text=Tengo dudas sobre la dinámica" target="_blank">
+                        <img src="img/whatsapp_icon.png" alt="" id="whatsapp">
+                    </a>
+                </div>
                 </div>
             </div>
         </div>
