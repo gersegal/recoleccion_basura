@@ -165,11 +165,11 @@ if(isset($_POST['agregar_record'])){
     <!-- Hero (Parallax) and nav -->
     <?php include "./components/nav.php" ?>
 
-    <div class="columns">
+    <div class="columns is-vcentered">
         <div class="column"><!-- Form -->
         <?php include "./components/form_solicitud.php" ?></div>
         <div class="column"><!-- Process section -->
-        <?php include "./components/horizontal_bar_chart.php" ?></div>
+        <?php include "./components/chart.php" ?></div>
     </div>
 
 
